@@ -11,7 +11,7 @@ public abstract class Vehiculo
 
     public string Marca{get {return this.marca;} set{this.marca = value;}}
 
-    public string Modelo{get {return this.marca;} set{this.marca = value;}}
+    public string Modelo{get {return this.modelo;} set{this.modelo = value;}}
 
     public int Velocidad{get {return this.velocidad;} set{this.velocidad = value;}}
 

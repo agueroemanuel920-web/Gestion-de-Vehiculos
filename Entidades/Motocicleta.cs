@@ -30,7 +30,7 @@ public class Motocicleta : Vehiculo
 
         int frenar = rnd.Next(1, 49);
 
-        return this.Velocidad + frenar;
+        return this.Velocidad - frenar;
     }
 
     public override void MostrarInfo()

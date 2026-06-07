@@ -31,14 +31,14 @@ public class Automotor : Vehiculo
 
         int frenar = rnd.Next(1, 29);
 
-        return this.Velocidad + frenar;
+        return this.Velocidad - frenar;
     }
 
     public override void MostrarInfo()
     {
         System.Console.WriteLine("------------------------------");
 
-        System.Console.WriteLine($"Vehiculo: {this.Marca} {this.Modelo}");
+        System.Console.WriteLine($"Vehiculo: {this.Marca} , {this.Modelo}");
 
         System.Console.WriteLine($"Velocidad actual: {this.Velocidad}");
 
